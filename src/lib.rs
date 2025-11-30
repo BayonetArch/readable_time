@@ -64,17 +64,18 @@ pub fn time_since_epoch() -> Result<time_t, Box<dyn Error>> {
         .as_secs() as time_t)
 }
 
+/// NOTE: for some reason not making fields public makes then inviisible to  lsp ?
 #[derive(Debug, Clone)]
 pub struct ReadableTime {
-    year: i32,
-    month: i32,
-    day: i32,
-    week_day: i32,
-    hour_24: i32,
-    hour_12: i32,
-    minute: i32,
-    second: i32,
-    time_zone: String,
+    pub year: i32,
+    pub month: i32,
+    pub day: i32,
+    pub week_day: i32,
+    pub hour_24: i32,
+    pub hour_12: i32,
+    pub minute: i32,
+    pub second: i32,
+    pub time_zone: String,
 }
 
 #[allow(unused)]
