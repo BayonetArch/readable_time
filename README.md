@@ -1,12 +1,12 @@
 # readable_time #
 
-A lightweight and non crate dependent rust library for date and time.
-This library is for simple use cases and doesnot provide advanced time functionality.
-I created it cause 'chrono' was too heavy for my use case.
+A lightweight and non crate dependent rust library for date and time.<br>
+This library is for simple use cases and doesnot provide advanced time functionality.<br>
+I created it cause <u>chrono'</u> was too heavy for my use case.
 
 ## Quick Start ## 
 
-**Add from <u>crates.io</u>**:
+**Add from crates.io**:
 
 ```bash
 cargo add readable_time    
@@ -34,6 +34,7 @@ cargo add --git https://github.com/BayonetArch/readable_time
  ```rust
  ReadableTime::get_time_period(hour_24)?; // "AM" or "PM"
  ````
+
 ### NOTE ###
-This library works on unix systems and is not  guaranted to work on windows(who gives an fuck anyway right?)
+This library works on unix systems and is not  guaranted to work on windows(who gives an flip anyway right?)
 
