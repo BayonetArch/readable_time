@@ -16,9 +16,9 @@
 //! // You  can use rt.month,rt.year,rt.day,rt.hour_24,rt.hour_12,......
 //! // Or specific method to get formatted_time like 'rt.get_timef()' 'rt.get_ptimef',....
 //!
-//! println!("{}",;rt.get_timef());             // OUTPUT:  2025-01-01 03:04:05
-//! println!("{}",;rt.get_ptimef()?);           // OUTPUT:  Mon Jan 15 2024 03:45 PM
-//! println!("{}",;rt.get_extended_ptimef()?);  // OUTPUT:  Sun Nov 30 07:14:00 +0545 2025
+//! println!("{}",rt.get_timef());             // OUTPUT:  2025-01-01 03:04:05
+//! println!("{}",rt.get_ptimef()?);           // OUTPUT:  Mon Jan 15 2024 03:45 PM
+//! println!("{}",rt.get_extended_ptimef()?);  // OUTPUT:  Sun Nov 30 07:14:00 +0545 2025
 //! ```
 //!
 //! If you want to get the time period for 'hour_24' you can use :
