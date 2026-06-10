@@ -36,5 +36,5 @@ cargo add --git https://github.com/BayonetArch/readable_time
  ````
 
 ### NOTE ###
-This library works on unix systems and is not  guaranted to work on windows(who gives an flip anyway right?)
+This library works on unix systems and is not  guaranted to work on windows(who gives a flip anyway right?)
 
